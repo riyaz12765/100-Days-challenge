@@ -83,11 +83,21 @@ Or Else you can sign out with your existing account and sign in with `haxuser1` 
 
 * In this task am just learn what is successful and failed login attempt and it may indicate potential threat or unauthorized access. As a SOC Analyst how to detect and analyze those logs 4625, 4624 on windows (event viewer) and respond to unauthorized access to protect our orgainsations IT Infrastructure.
 
-* Successful Login Attempt :
+* Successful Login Attempt on Splunk :
 
 ![Screenshot 2025-04-25 112657](https://github.com/user-attachments/assets/92608bb3-67aa-4fff-b2bf-f6a862ce1844)
 
-* Failed Login Attempt :
+* Successful Login Attempt on Windows :
 
-  ![Screenshot 2025-04-25 112641](https://github.com/user-attachments/assets/c4f8aec7-d827-481d-9cb2-52218546d928)
+![Screenshot 2025-04-28 171857](https://github.com/user-attachments/assets/89ad9ae0-6e32-4c39-bb05-be871ef2b03c)
+
+* Failed Login Attempt on Splunk :
+
+![Screenshot 2025-04-25 112641](https://github.com/user-attachments/assets/c4f8aec7-d827-481d-9cb2-52218546d928)
+
+
+* Failed Login Attempt on Windows :
+![Screenshot 2025-04-28 171919](https://github.com/user-attachments/assets/60b042dc-267b-4165-84a0-d7994d077aff)
+
+
 
