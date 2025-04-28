@@ -114,7 +114,8 @@ This command lists all local user accounts on the system, which could be used by
 ### Submission:
 - Windows Logs: Submit a screenshot of the log generated on the Windows machine.
 
-- Output of Task1
+### Output of Task1
+* am just learn in this task how to simulate attack to victim windows and how to analyze those logs on windows ( event viewer ) 
 
 
 
