@@ -76,3 +76,18 @@ Or Else you can sign out with your existing account and sign in with `haxuser1` 
 ## Submission:
 - Event ID 4624 (Successful Login): Submit a screenshot showing a successful login event from the Security logs.
 - Event ID 4625 (Failed Login): Submit a screenshot showing a failed login attempt event from the Security logs.
+- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task-3
+----------------------
+
+* In this task am just learn what is successful and failed login attempt and it may indicate potential threat or unauthorized access. As a SOC Analyst how to detect and analyze those logs 4625, 4624 on windows (event viewer) and respond to unauthorized access to protect our orgainsations IT Infrastructure.
+
+* Successful Login Attempt :
+
+![Screenshot 2025-04-25 112657](https://github.com/user-attachments/assets/92608bb3-67aa-4fff-b2bf-f6a862ce1844)
+
+* Failed Login Attempt :
+
+  ![Screenshot 2025-04-25 112641](https://github.com/user-attachments/assets/c4f8aec7-d827-481d-9cb2-52218546d928)
+
