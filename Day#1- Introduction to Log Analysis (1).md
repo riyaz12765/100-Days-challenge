@@ -115,15 +115,14 @@ This command lists all local user accounts on the system, which could be used by
 - Windows Logs: Submit a screenshot of the log generated on the Windows machine.
 
 ### Output of Task1
-* am just learn in this task how to simulate attack to victim windows and how to analyze those logs on windows ( event viewer ) 
-
-
-
-
+* am just learn in this task how to execute basic powershell command and how to analyze as a soc analyst those logs on windows ( event viewer ) 
 
 
 
 ![Screenshot 2025-04-09 171006](https://github.com/user-attachments/assets/1865f3a6-3d45-4c1d-b992-4ce2030acf96)
+
+
+
 
 
 
