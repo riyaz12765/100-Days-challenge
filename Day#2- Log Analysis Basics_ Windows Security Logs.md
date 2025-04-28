@@ -4,14 +4,6 @@
 The objective of this lab is to introduce students to **Windows Security Logs** and help them understand how to analyze logs for security-related events. Students will learn how to explore and analyze various security logs such as login attempts, user account changes, and other critical system events that could indicate potential security threats.
 
 
-
----
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/ea7f_M2ExVE/maxresdefault.jpg)](https://youtu.be/ea7f_M2ExVE)
-
----
-
 ## **Lab Setup**
 ### **Requirements:**
 - **System:** Windows 10/11 or Windows Server 2019/2022
@@ -39,9 +31,6 @@ Some common **Event IDs** in **Windows Security Logs** that you will encounter i
 - **Event ID 4624**: Successful Logon.
 - **Event ID 4625**: Failed Logon.
 - **Event ID 4740**: Account Lockout.
-- **Event ID 4732**: A user was added to a security-enabled local group.
-- **Event ID 4672**: Special privileges assigned to a new logon (Privilege escalation).
-
 ---
 
 ## **Lab Task: Explore and Analyze Windows Security Logs**
