@@ -115,21 +115,29 @@ This command lists all local user accounts on the system, which could be used by
 - Windows Logs: Submit a screenshot of the log generated on the Windows machine.
 
 ### Output of Task1
-* am just learn in this task how to execute basic powershell command and how to analyze as a soc analyst those logs on windows ( event viewer ) 
+* am just learn in this task how to execute basic powershell command 4104 and how to analyze as a soc analyst those logs on windows ( event viewer ) 
 
 
 
 ![Screenshot 2025-04-09 171006](https://github.com/user-attachments/assets/1865f3a6-3d45-4c1d-b992-4ce2030acf96)
 
 
+### Also we can see powershell file execution command logs on splunk
+
+Note : In default We can't see powershell logs 4104 on splunk. Additionally we can configure splunk program files ( Input.conf ).
+
+
+
+
+
+![Screenshot 2025-04-25 143751](https://github.com/user-attachments/assets/3c9ef988-66ab-431d-9700-d25294d54fc7)
 
 
 
 
 
 
-
-
+![Screenshot 2025-04-25 144942](https://github.com/user-attachments/assets/bce55748-69d1-4631-ae4e-9626671a9a8e)
 
 
 
