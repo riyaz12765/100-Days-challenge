@@ -114,4 +114,22 @@ This command lists all local user accounts on the system, which could be used by
 ### Submission:
 - Windows Logs: Submit a screenshot of the log generated on the Windows machine.
 
+- Output of Task1
+
+
+
+
+
+
+
+![Screenshot 2025-04-09 171006](https://github.com/user-attachments/assets/1865f3a6-3d45-4c1d-b992-4ce2030acf96)
+
+
+
+
+
+
+
+
+
 
