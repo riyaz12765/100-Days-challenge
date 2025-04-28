@@ -113,6 +113,7 @@ This command lists all local user accounts on the system, which could be used by
 
 ### Submission:
 - Windows Logs: Submit a screenshot of the log generated on the Windows machine.
+- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Output of Task1
 * am just learn in this task how to execute basic powershell command 4104 and how to analyze as a soc analyst those logs on windows ( event viewer ) 
