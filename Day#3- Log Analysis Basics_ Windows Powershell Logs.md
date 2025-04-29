@@ -104,6 +104,11 @@ These are legitimate Windows tools that attackers often abuse for stealthy malic
 ![Screenshot 2025-04-28 173416](https://github.com/user-attachments/assets/f7717926-4e07-48a8-af6b-a16cac3b0fb6)
 
 
+----------------------------------------------------------------------------------------------------------------------------
+               Completed Task -3
+---------------------------------------------------------------------------------------------------------------------------               
+
+
 
 
 
