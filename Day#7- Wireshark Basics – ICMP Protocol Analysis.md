@@ -59,6 +59,36 @@ Use these filters in Wireshark’s **Display Filter** bar:
 - Wireshark helps visualize ICMP packet flow and structure.
 - Understanding ICMP helps detect network scanning, ping sweeps, and unreachable hosts.
 
+
 ## 📸 Submission
 Submit a screenshot showing:
 - ICMP Echo Request and Echo Reply packets
+
+
+- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 7
+-----------------
+* ICMP stands for Internet Control Message Protocol
+* This protocol helps sent echo request and echo reply.
+
+sent echo request - icmp.type == 8
+------------------
+![Screenshot 2025-04-29 181020](https://github.com/user-attachments/assets/8090c8cc-56a7-458e-9e82-9259f256b4dd)
+
+
+echo reply - icmp.type == 0
+
+
+
+
+![Screenshot 2025-04-29 182426](https://github.com/user-attachments/assets/251cb946-0e75-486c-9e14-83647b2ab4e7)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           Completed Task - 7 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
