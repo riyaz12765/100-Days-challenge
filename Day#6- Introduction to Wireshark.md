@@ -60,12 +60,14 @@ Submit screenshots showing:
   Create a display filter to capture ICMP traffic and share the snapshot
   ---------------------------------------------------------------------------
 
+   ![Screenshot 2025-04-29 174432](https://github.com/user-attachments/assets/bc696647-31e6-4576-b1d2-daa940e384f6)
 
 
    Create a capture filter to capture ICMP traffic and share the snapshot
   -------------------------------------------------------------------------
 
 
+   ![Screenshot 2025-04-29 174542](https://github.com/user-attachments/assets/ea8c422f-0216-495f-a06d-5724ca613f64)
 
   
 
