@@ -5,25 +5,12 @@
 ## 🎯 **Objective**  
 The objective of this lab is to introduce students to analyzing **TCP (Transmission Control Protocol)** traffic using **Wireshark**. Students will learn how TCP establishes connections, the 3-way handshake process, and how to interpret common TCP fields and flags.
 
----
-
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/DSp2J4QdpTE/maxresdefault.jpg)](https://youtu.be/DSp2J4QdpTE)
----
-
 ## 🛠️ **Lab Setup**
 
 ### **System Requirements**
 - **Operating System:** Windows 10/11 (or Linux/macOS)
 - **Software:** Wireshark (latest version)
 
-### **Files Needed**
-- [Download Sample PCAP file](https://github.com/0xrajneesh/90-Days-SOC-Challenge-Beginner/raw/refs/heads/main/Protocol_Analysis_pcap.pcapng)
-
----
 
 ## 📘 **TCP Packet Structure and Fields**
 
@@ -41,21 +28,6 @@ TCP is a **Layer 4 (Transport Layer)** protocol that ensures reliable, ordered, 
 | **Window Size**     | Buffer size available                        |
 | **Checksum**        | Error-checking field                         |
 
----
-
-## 🔍 **Most Common TCP Display Filters**
-
-Use these filters in Wireshark’s **Display Filter** bar:
-
-| Filter                  | Description                              |
-|--------------------------|------------------------------------------|
-| `tcp`                   | Show all TCP packets                     |
-| `tcp.flags.syn == 1`    | Show SYN packets (start of connection)   |
-| `tcp.flags.fin == 1`    | Show FIN packets (end of connection)     |
-| `tcp.port == 80`        | Show TCP packets on port 80              |
-| `ip.addr == 192.168.1.1`| TCP traffic to/from a specific host      |
-
----
 ## ✅ Conclusion
 - TCP ensures reliable and ordered data delivery through its 3-way handshake and flow control.
 - Understanding TCP flags is essential for:
