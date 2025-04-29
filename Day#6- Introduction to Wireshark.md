@@ -52,3 +52,28 @@ Submit screenshots showing:
 - Create a display filter to capture ICMP traffic and share the snapshot
 - Create a capture filter to capture ICMP traffic and share the snapshot
 
+- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Output of Task - 6
+------------------------
+
+* In this Task - 6 am just learn Wireshark and how is its work, Display Filter, Capture Filter and how to use pcap file.
+
+   Create a New Profile Name "SOC Analyst" and share the snapshot
+  ----------------------------------------------------------------
+
+  ![Screenshot 2025-04-29 165306](https://github.com/user-attachments/assets/29238cd3-4dd5-441b-b2a8-8d50481ae5f5)
+
+
+  Create a display filter to capture ICMP traffic and share the snapshot
+  ---------------------------------------------------------------------------
+
+
+
+   Create a capture filter to capture ICMP traffic and share the snapshot
+  -------------------------------------------------------------------------
+
+
+
+  
+
+
