@@ -5,12 +5,6 @@
 ## 🎯 **Objective**  
 The objective of this lab is to simulate an **SSH brute force attack** and demonstrate how to detect it using **Linux authentication logs**. Students will learn how to identify multiple failed login attempts and analyze patterns to uncover brute force activity.
 
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/6I0s-nh8j6k/maxresdefault.jpg)](https://youtu.be/6I0s-nh8j6k)
----
 
 ## 🛠️ **Lab Setup**
 
