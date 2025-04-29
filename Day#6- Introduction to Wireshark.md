@@ -5,14 +5,7 @@
 ## 🎯 **Objective**  
 The objective of this lab is to introduce students to **Wireshark**, a powerful packet analysis tool used by SOC analysts to investigate network traffic. Students will learn the interface, how to capture packets, apply filters, and identify suspicious communication patterns.
 
----
 
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/WmQZUMaiGfU/maxresdefault.jpg)](https://youtu.be/WmQZUMaiGfU)
----
-
-## 🛠️ **Lab Setup**
 
 ### **System Requirements**
 - **Operating System:** Windows, Linux, or macOS
