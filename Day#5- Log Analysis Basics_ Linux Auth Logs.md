@@ -107,3 +107,34 @@ sudo tail -f /var/log/auth.log
 Submit a screenshot showing:
 - failed login entries from the same IP
 - Username attempted
+
+- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 5
+------------------------
+
+* In this task - 5 am lust learn brute force attack and how its works and as a soc analyst how to detect and analyze those logs and investigate. 
+* Before Simulating a attack we need to extract the file rockyou.txt.
+
+![Screenshot 2025-04-29 114803](https://github.com/user-attachments/assets/46fe8eb7-4d9c-4d7f-8c0a-670dbf4fbeb3)
+
+* Finally we can see logs under /var/log/auth.log which is generating by attacker machine IP is 192.168.81.130
+
+
+![Screenshot 2025-04-29 114719](https://github.com/user-attachments/assets/9ae9eea1-6112-41f1-a366-723f00d8fffb)
+
+
+
+![Screenshot 2025-04-29 114708](https://github.com/user-attachments/assets/e2c5c2fa-b4e0-4bdd-96a3-069a83f49640)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              Completed Task - 5 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
