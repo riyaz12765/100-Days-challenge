@@ -5,13 +5,6 @@
 ## 🎯 **Objective**  
 The objective of this lab is to help students understand and analyze **ICMP (Internet Control Message Protocol)** packets using **Wireshark**. Students will learn to identify echo requests/replies, interpret ICMP packet fields, and apply relevant filters for investigation.
 
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/K_kPVNjv-7w/maxresdefault.jpg)](https://youtu.be/K_kPVNjv-7w)
----
-
 ## 🛠️ **Lab Setup**
 
 ### **System Requirements**
