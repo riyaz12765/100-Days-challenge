@@ -118,7 +118,7 @@ Submit a screenshot showing:
 
 ![Screenshot 2025-04-29 114803](https://github.com/user-attachments/assets/46fe8eb7-4d9c-4d7f-8c0a-670dbf4fbeb3)
 
-* Finally we can see logs under /var/log/auth.log which is generating by attacker machine IP is 192.168.81.130
+* Finally we can see logs under /var/log/auth.log which is generating by attacker machine IP is 192.168.81.130 and it could indicate brute force attack multiple failed login from single ip.
 
 
 ![Screenshot 2025-04-29 114719](https://github.com/user-attachments/assets/9ae9eea1-6112-41f1-a366-723f00d8fffb)
