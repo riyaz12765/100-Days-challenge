@@ -3,12 +3,6 @@
 ## **Objective:**
 The objective of this lab is to introduce students to **Windows PowerShell Logs** and help them understand how to analyze PowerShell-related events. Students will learn how to explore and analyze PowerShell logs to detect suspicious or malicious PowerShell commands that could indicate an attack or compromise.
 
----
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/u-lzvHJvte4/maxresdefault.jpg)](https://youtu.be/u-lzvHJvte4)
-
----
 
 ## **Lab Setup**
 ### **Requirements:**
@@ -17,17 +11,6 @@ The objective of this lab is to introduce students to **Windows PowerShell Logs*
   - **Windows Event Viewer** (pre-installed)
   - **PowerShell (Pre-installed on Windows)**
   - **Administrative Privileges** (required for enabling logs)
-
----
-
-## **Preparation:**
-Before proceeding, make sure PowerShell script block logging is enabled on your system:
-
-1. Press `Win + R`, type `gpedit.msc`, and press Enter to open the **Group Policy Editor**.
-2. Navigate to:
-`Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell`
-3. Turn on **Module Logging**, **Script Block Logging**, and **Script Execution**.
-4. Apply the settings and close the Group Policy Editor.
 
 ---
 
