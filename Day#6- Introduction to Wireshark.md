@@ -11,16 +11,6 @@ The objective of this lab is to introduce students to **Wireshark**, a powerful 
 - **Operating System:** Windows, Linux, or macOS
 - **Network Adapter:** Required for packet capture
 
-### **Software Required**
-- [Wireshark](https://www.wireshark.org/download.html) (latest stable version)
-- [Download Sample PCAP file](https://github.com/0xrajneesh/90-Days-SOC-Challenge-Beginner/raw/refs/heads/main/Protocol_Analysis_pcap.pcapng)
-
----
-
-## 🎥 **YouTube Tutorial Video**
-📺 Watch: **[Wireshark for Beginners – Hands-On Walkthrough](https://youtu.be/nmLH0c5YUJk)**  
-Duration: 15 minutes
-
 ---
 
 ## 📘 **What is Wireshark?**
