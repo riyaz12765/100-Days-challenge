@@ -135,3 +135,35 @@ Submit screenshots showing:
 ✅ Simulate Suspicious Powershell Command
 ✅ Analyze Logs	Investigate the command via Event ID 4103
 ✅ Remove File	Delete the generated log file
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 14
+---------------------------------
+
+* In this task am just learn how to simulat suspicious script in windows powershell and as a soc analyst how to detect, Analyze, Inverstigate, Respond through incident response such as Containment, Eradication, Recovery.
+
+
+
+
+![Screenshot 2025-04-30 175204](https://github.com/user-attachments/assets/c0da91b7-4b9c-405e-8a95-a6bbd2ca45dc)
+
+
+
+![Screenshot 2025-04-30 175209](https://github.com/user-attachments/assets/8f34f3d1-e3e8-4c4f-91e5-cd8afe98a282)
+
+-----------------------------------------------------------------------------------------------------------------------
+    Completed Task - 14
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
