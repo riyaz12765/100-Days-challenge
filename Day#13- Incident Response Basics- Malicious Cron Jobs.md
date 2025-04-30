@@ -5,12 +5,6 @@
 ## 🎯 **Objective:**  
 The objective of this lab is to investigate and respond to a **malicious cron job** used by an attacker to maintain persistence on a Linux system. Students will simulate the attack, detect the malicious scheduled task, analyze the script, and remove the threat — applying the full incident response lifecycle.
 
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/3GoMEXOJfPg/maxresdefault.jpg)](https://youtu.be/3GoMEXOJfPg)
----
 
 ## 📘 **What is a Cron Job?**
 
@@ -71,55 +65,6 @@ chmod +x /tmp/malicious.sh
 echo "* * * * * /tmp/malicious.sh" >> /var/spool/cron/root
 ```
 
-## 🧪 Step-by-Step Investigation
-
-### Step 1. Preparation
-- Make sure cron is installed and running:
-```
-sudo systemctl status cron
-```
-- Enable logging (cron logs are usually in /var/log/syslog or /var/log/cron).
-
-### Step 2. Detection and Analysis
-- Check for suspicious cron entries:
-```
-crontab -l
-```
-- Search cron directories for unauthorized jobs:
-```
-grep -r "/tmp/" /etc/cron* /var/spool/cron/crontabs
-```
-- Review logs to confirm execution:
-```
-cat /tmp/.cron.log
-```
-- Analyze the script:
-```
-cat /tmp/malicious.sh
-```
-### Step 3. Containment, Eradication, and Recovery
-- Remove the malicious cron job:
-```
-crontab -l | grep -v "malicious.sh" | crontab -
-```
-- Delete the script and its output:
-```
-rm -f /tmp/malicious.sh /tmp/.cron.log
-```
-- Restart the cron service:
-```
-sudo systemctl restart cron
-```
-### Step 4. Post-Incident Activity
-- Document the following:
- - When the cron job was added
- - What the script was doing
- - Any signs of lateral movement or download activity
-
-- Recommendations:
- - Restrict cron job access to authorized users only
- - Enable cron integrity checks
- - Set up alerts for new cron entries (using auditd or inotify)
 
 ## Lab Checklist
 
