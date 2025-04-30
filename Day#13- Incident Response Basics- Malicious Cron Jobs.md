@@ -135,4 +135,33 @@ Submit screenshots showing:
 - Logs confirming the script execution
 - Cleaned cron job list and deletion confirmation
 
+- -----------------------------------------------------------------------------------------------------------------------------------------
+###Output of Task - 13
+
+* In this task - 13 am just learn what cron job and its and how attacker use cron to the victim
+* As a soc analyst how to detect, Analyze, Investigate and respond to cron based script execution.
+
+![Screenshot 2025-04-30 144851](https://github.com/user-attachments/assets/c5212854-6cce-4a89-a974-28f41113b9ed)
+
+![Screenshot 2025-04-30 144909](https://github.com/user-attachments/assets/48befc5f-e667-47a8-9f72-bdac70232d48)
+
+![Screenshot 2025-04-30 144934](https://github.com/user-attachments/assets/3033ec4f-15bd-4748-9924-7674a54910d9)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Completed Task - 13 
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
