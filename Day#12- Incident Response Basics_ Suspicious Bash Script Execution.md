@@ -66,45 +66,6 @@ Run the script in the background:
 ./fakebackup.sh &
 ```
 
-## 🧪 Step-by-Step Investigation
-
-### 1. Preparation
-- Install curl, lsof, ps, and grep (usually pre-installed).
-
-### 2. Detection and Analysis
-- Check running processes:
-```
-ps aux | grep fakebackup.sh
-```
-- Search for suspicious files:
-```
-find /tmp -name "*.sh"
-```
-
-### 3. Containment, Eradication, and Recovery
-- Kill any related processes:
-```
-pkill curl
-```
-- Remove the malicious script:
-```
-rm -f /tmp/payload.sh
-```
-- Clear the crontab if persistence was found:
-```
-crontab -e
-```
-- Restart services if needed and log out inactive sessions.
-### 4. Post-Incident Activity
-- Document:
- -  What triggered the alert?
- -  What was the script doing?
- - Which user executed it?
-
-- Recommendations:
- - Enable file integrity monitoring (e.g., AIDE).
- - Restrict /tmp execution using mount options (noexec).
- - Educate users about unknown script execution.
 
 ## Lab Checklist
 ✅ Simulate Script	Create and execute a suspicious bash script    
@@ -117,4 +78,42 @@ Submit screenshots of:
 - The malicious script content    
 - Process list showing the script or curl
 - Script deleted from /tmp
+
+- ------------------------------------------------------------------------------------------------------
+
+
+### Output of Task - 12
+---------------------------
+
+* In this task - 12 am just learn as a attacker how execute the bash script and as a soc anlyst how to detect, analyze, investigate, respond include kill the process and remove the script.
+
+![Screenshot 2025-04-30 140043](https://github.com/user-attachments/assets/709bfeb8-48e4-45cb-94f5-14d69fcefbc4)
+
+
+![Screenshot 2025-04-30 140057](https://github.com/user-attachments/assets/f5fbd745-6d2b-4254-82f0-5efbb6d9d66a)
+
+--------------------------------------------------------------------------------------------------------------------
+       Completed task - 12
+
+ -----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
