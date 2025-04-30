@@ -3,13 +3,6 @@
 ## **Objective:**
 The objective of this lab is to introduce students to the **core concepts of incident response**, familiarize them with the **incident response lifecycle**, and help them understand how basic threats on Windows systems are detected, analyzed, and responded to by SOC Analysts.
 
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/aFku6ochX68/maxresdefault.jpg)](https://youtu.be/aFku6ochX68)
----
-
 
 
 ## **What is Incident Response?**
@@ -34,42 +27,6 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
 | **3. Containment, Eradication, and Recovery** | Isolate threats, remove malware/artifacts, and restore systems securely.       |
 | **4. Post-Incident Activity**    | Conduct lessons learned, create reports, and improve incident response plans.  |
 
----
-
-## **Common Types of Incidents on Windows:**
-
-## **Common Types of Incidents Across Platforms**
-
-| **Platform** | **Incident Type**                             | **Description**                                                                 |
-|--------------|-----------------------------------------------|---------------------------------------------------------------------------------|
-| **Windows**  | Unauthorized Login Attempts                   | Multiple failed logins or brute-force via RDP or local access.                  |
-|              | PowerShell-based Attacks                      | Obfuscated or encoded PowerShell commands for exploitation or lateral movement. |
-|              | Malware/Ransomware Execution                  | Malicious EXE/DLL files executed, causing encryption or data theft.             |
-|              | Credential Dumping                            | Use of tools like Mimikatz to extract credentials from LSASS memory.            |
-|              | Lateral Movement via WMI or RDP               | Internal system traversal using Windows services and accounts.                  |
-| **Linux**    | SSH Brute Force or Unauthorized Access        | Repeated login attempts or access from unknown IPs via SSH.                     |
-|              | Malicious Cron Jobs for Persistence           | Scheduled tasks created by attackers to maintain access.                        |
-|              | Sudo Abuse / Privilege Escalation             | Exploiting weak sudo rules or known vulnerabilities to gain root privileges.    |
-|              | Web Shell Upload                              | Attackers upload backdoors via vulnerable web applications.                     |
-|              | Crypto Miner Installation                     | Hidden mining software running under compromised user accounts.                 |
-| **AWS**      | IAM Credential Misuse                         | Leaked API keys used from unknown geographies.                                  |
-|              | Root User Console Access                      | Suspicious login or activity from the AWS root account.                         |
-|              | Unusual S3 Bucket Access                      | Public or unauthorized access to private storage.                               |
-|              | CloudTrail or Logging Disabled                | Logging service turned off to hide attacker activity.                           |
-|              | EC2 Abuse for Command and Control             | EC2 instances being used as a staging point or C2 server.                       |
-| **Network**  | DDoS Attack                                   | Flood of traffic targeting public-facing services.                              |
-|              | Port Scanning / Reconnaissance                | Continuous scanning of open ports across network segments.                      |
-|              | ARP Spoofing / Man-in-the-Middle (MitM)       | Tampering with traffic flows for interception.                                  |
-|              | DNS Tunneling                                 | Covert data exfiltration using DNS queries.                                     |
-|              | Unauthorized VPN Access                       | Compromised VPN credentials used for internal access.                           |
-| **Email**    | Phishing / Credential Harvesting              | Fake emails with links to steal user credentials.                               |
-|              | Malware via Attachments                       | Office or ZIP files with embedded malware.                                      |
-|              | Business Email Compromise (BEC)               | Attacker impersonates an executive to trick employees.                          |
-|              | Spoofed Email Domains                         | Sending emails from domains that look like legitimate ones.                     |
-|              | Internal Account Compromise                   | Compromised internal mailbox used to spread phishing internally.                |
-
-
----
 
 ## **How SOC Analysts Respond to Incidents:**
 - Monitor logs and alerts (via SIEM)
@@ -179,4 +136,52 @@ This lab demonstrated how to:
 - Simulate an RDP brute-force attack using Hydra
 - Detect suspicious logons via Windows Event Viewer
 - Respond with basic IR steps without using Sysmon
+
+- -----------------------------------------------------------------------------------------------------------------------------------------
+### Output of Task - 11
+-------------------------
+
+* In this task - 11 am just learn how to simulate the brute force attack to local user account through remote desktop
+* As a soc analyst how to detect and analyse, respond to attacker including block the attacker IP without sysmon.
+
+ Screenshot of Hydra attack in Kali Linux
+ ----------------------------------------
+ 
+![Screenshot 2025-04-30 125725](https://github.com/user-attachments/assets/43f4501d-f60f-43b4-af2c-c50844af0d10)
+
+Detect suspicious logons via Windows Event Viewer
+---------------------------------------------------
+
+![Screenshot 2025-04-30 122617](https://github.com/user-attachments/assets/6659325c-c4ae-4c62-a363-c93640ccc9bb)
+
+
+Respond with basic IR steps without using Sysmon
+-----------------------------------------------------
+
+
+![Screenshot 2025-04-30 125924](https://github.com/user-attachments/assets/90284cb3-a721-4f27-8854-a75ac5934066)
+
+----------------------------------------------------------------------------------------------------------------------
+   Completed Task - 11
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
