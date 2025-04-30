@@ -5,27 +5,12 @@
 ## 🎯 **Objective**  
 The objective of this lab is to help students analyze **HTTP (Hypertext Transfer Protocol)** packets using **Wireshark**. Students will explore HTTP request/response headers, understand how web communication works, and learn how to detect common HTTP-based attacks or data leaks.
 
----
-
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/4i265xCxv-Q/maxresdefault.jpg)](https://youtu.be/4i265xCxv-Q)
----
-
-
 
 ## 🛠️ **Lab Setup**
 
 ### **System Requirements**
 - **Operating System:** Windows 10/11 (or Linux/macOS)
 - **Software:** Wireshark (latest version)
-
-### **Files Needed**
-- [Download Sample PCAP file](https://github.com/0xrajneesh/90-Days-SOC-Challenge-Beginner/raw/refs/heads/main/Protocol_Analysis_pcap.pcapng)
-
----
 
 ## 📘 **HTTP Packet Structure and Fields**
 
@@ -45,21 +30,6 @@ HTTP is an **application-layer protocol** used for communication between clients
 
 ---
 
-## 🔍 **Most Common HTTP Display Filters**
-
-Use these filters in Wireshark’s **Display Filter** bar:
-
-| Filter                    | Description                              |
-|---------------------------|------------------------------------------|
-| `http`                   | Show all HTTP traffic                    |
-| `tcp.port == 80`         | HTTP traffic by default port             |
-| `http.request.method == "GET"` | Show all GET requests             |
-| `http.request.uri`       | View requested resources                 |
-| `http.set_cookie`        | Show cookies in HTTP responses           |
-| `ip.addr == 192.168.1.10`| HTTP traffic to/from specific host       |
-
----
-
 ## ✅ Conclusion
 - HTTP traffic is readable and easy to analyze in Wireshark.
 - Analyzing HTTP helps detect:
@@ -71,4 +41,62 @@ Use these filters in Wireshark’s **Display Filter** bar:
 Submit a screenshot showing:
 - Show all HTTP traffic
 - Show all GET requests
-- View requested resources       
+- View requested resources
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 9
+-------------------------
+
+* HTTP Stands for Hyper Text Transfer Protocol
+* HTTP is less secure because its sent data and retrive data through plain sheet.
+
+Show all HTTP traffic
+-------------------------
+![Screenshot 2025-04-30 103841](https://github.com/user-attachments/assets/6361f4b0-cc42-4bd5-bc7a-4842d312b4fe)
+
+Show all GET requests
+----------------------
+
+![Screenshot 2025-04-30 104107](https://github.com/user-attachments/assets/1338df15-5d50-4049-9f8d-62aedd96f316)
+
+
+View requested resources
+----------------------------
+
+![Screenshot 2025-04-30 104421](https://github.com/user-attachments/assets/a0eb93ed-ad2b-44fe-a5ce-7027100b3d0f)
+
+
+=================================================================================================================================
+
+              Completed Task - 9 
+
+ ======================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
