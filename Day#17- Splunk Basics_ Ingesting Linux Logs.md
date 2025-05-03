@@ -36,25 +36,63 @@ In this lab, you will:
 Use SPL queries to answer the following:
 
 ### ✅Task 1: Identify the most frequently queried domain names
-```spl
-index=dns_lab sourcetype="json"
-| stats count by query
-| sort -count
-```
 
 ### ✅Task 2: Find the most active user IPs generating DNS traffic
-```spl
-index=dns_lab sourcetype="json"
-| stats count by "id.orig_h"
-| sort -count
-```
+
 ### ✅Task 3: Breakdown of DNS query types (A, AAAA, CNAME, PTR)
-```spl
-index=dns_lab sourcetype="json"
-| stats count by qtype
-```
+
 ## 📸Submission
 Submit a screenshot of each of the following:
 - Your SPL query and result for Task 1.
 - SPL query and result for Task 2.
 - SPL query and result for Task 3.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 17
+------------------------
+
+* In this task am just learn how to upload dns.log file into the splunk and how to analyze, Investigation.
+* Also learn some spl splunk queries its reall help for soc analyst.
+
+
+Task 1: Identify the most frequently queried domain names
+---------------------------------------------------
+![Screenshot 2025-05-03 115535](https://github.com/user-attachments/assets/b783b2e3-7f55-45d0-b2a5-f28599402c3f)
+
+
+Task 2: Find the most active user IPs generating DNS traffic
+--------------------------------------------------------------
+
+![Screenshot 2025-05-03 115654](https://github.com/user-attachments/assets/3ed63a7f-5437-4afb-8bd7-afa0591d9b80)
+
+
+Task 3: Breakdown of DNS query types (A, AAAA, CNAME, PTR)
+---------------------------------------------------------------
+
+![Screenshot 2025-05-03 121333](https://github.com/user-attachments/assets/1a4f17ba-69b2-4b3a-92e3-654df1c8c5dc)
+
+--------------------------------------------------------------------------------------------------------------------------------
+   Completed Task - 17
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
