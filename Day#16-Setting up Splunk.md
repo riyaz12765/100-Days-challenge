@@ -57,4 +57,28 @@ http://<your-server-ip>:8000
 
 
 ## Submission
-- Share a screenshot of Splunk Web 
+- Share a screenshot of Splunk Web
+
+
+![Screenshot 2025-05-02 101036](https://github.com/user-attachments/assets/8a47946d-c3ff-4927-9fba-0fb2fd7e737d)
+
+
+![Screenshot 2025-05-02 101046](https://github.com/user-attachments/assets/6b272ea6-98e1-4f11-b3db-e722aeb5c4c6)
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+    Completed Task - 16 
+
+-------------------------------------------------------------------------------------------------------------------------------    
+
+
+
+
+
+
+
+
+
+
+
