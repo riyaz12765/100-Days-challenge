@@ -36,29 +36,14 @@ In this lab, you will:
 Use SPL queries to complete the following analysis:
 
 ### ✅ Task 1: Find the top 10 endpoints generating web traffic
-```spl
-index=http_lab sourcetype="json"
-| stats count by "id.orig_h"
-| sort -count
-| head 10
-```
+`
 
 ### ✅Task 2: Count the number of server errors (5xx) observed
-```spl
-index=http_lab sourcetype="json" status_code>=500 status_code<600
-| stats count as server_errors
-```
+
 ### ✅Task 3: Identify User-Agents associated with possible scripted attacks
-```spl
-index=http_lab sourcetype="json" user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "python-requests/2.25.1", "botnet-checker/1.0")
-| stats count by user_agent
-```
+
 ### ✅Task 4: Find large file transfers (greater than 500 KB)
-```spl
-index=http_lab sourcetype="json" resp_body_len>500000
-| table ts "id.orig_h" "id.resp_h" uri resp_body_len
-| sort -resp_body_len
-```
+
 
 ### 📸Submission
 Submit a screenshot for each of the following:
@@ -68,3 +53,63 @@ Submit a screenshot for each of the following:
 - Your query and result for Task 4.
 - Your query and result for Task 5.
 
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+ ###Output task 19
+ ---------------
+
+* Am just learn how to upload, filter http logs into the splunk.
+* learn some splunk spl queries for help soc analyst.
+
+ Task 1: Find the top 10 endpoints generating web traffic
+ --------------------------------------------------------
+
+ ![Screenshot 2025-05-03 125038](https://github.com/user-attachments/assets/982c33e2-3a39-42f4-8aec-726031d27d47)
+
+
+ Task 2: Count the number of server errors (5xx) observed
+ -------------------------------------------------------
+
+![Screenshot 2025-05-03 125414](https://github.com/user-attachments/assets/89becee9-fe27-463a-bad1-20ee5362ba96)
+
+
+Task 3: Identify User-Agents associated with possible scripted attacks
+-----------------------------------------------------------------------
+
+
+![Screenshot 2025-05-03 125526](https://github.com/user-attachments/assets/f1981464-9fba-401f-a07a-5f92f6848065)
+
+
+
+
+Task 4: Find large file transfers (greater than 500 KB)
+--------------------------------------------------------
+
+
+![Screenshot 2025-05-03 143359](https://github.com/user-attachments/assets/58e9bbe3-a747-483d-9d91-74db5db58474)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+     Completed Task - 19
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
