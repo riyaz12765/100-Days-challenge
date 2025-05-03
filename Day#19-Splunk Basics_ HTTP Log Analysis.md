@@ -36,7 +36,6 @@ In this lab, you will:
 Use SPL queries to complete the following analysis:
 
 ### ✅ Task 1: Find the top 10 endpoints generating web traffic
-`
 
 ### ✅Task 2: Count the number of server errors (5xx) observed
 
