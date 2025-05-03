@@ -36,26 +36,57 @@ In this lab, you will:
 Use SPL queries to complete the following analysis:
 
 ### ✅Task 1: List the top 10 endpoints with failed SSH login attempts
-```spl
-index=ssh_lab sourcetype="json" auth_success=false
-| stats count by "id.orig_h"
-| sort -count
-| head 10
-```
+
 ### ✅Task 2: Find the number of total SSH connections
-```spl
-index=ssh_lab sourcetype="json"
-| stats count as total_ssh_connections
-```
+
 ### ✅Task 3: Count all event types (successful, failed, no-auth, multiple-failed) seen in the logs
-```spl
-index=ssh_lab sourcetype="json"
-| stats count by event_type
-```
+
 
 ## 📸Submission
 Submit a screenshot for each of the following:
 - Your query and result for Task 1.
 - Your query and result for Task 2.
 - Your query and result for Task 3.
+- --------------------------------------------------------------------------------------------------------------------------------
+
+### Output of Task - 18
+------------------------
+
+* Am just learn how to upload the dns.log file into the splunk.
+* learn some spl query about splunk to filter needed logs for soc analyst.
+
+
+
+
+Task 1: List the top 10 endpoints with failed SSH login attempts
+---------------------------------------------------------------------
+![Screenshot 2025-05-03 123202](https://github.com/user-attachments/assets/156823b5-87d4-49af-9558-2c5804370276)
+
+Task 2: Find the number of total SSH connections
+------------------------------------------------------
+![Screenshot 2025-05-03 123403](https://github.com/user-attachments/assets/3dd8a5b6-9c62-42f4-a93b-1c66255c01d8)
+
+
+Task 3: Count all event types (successful, failed, no-auth, multiple-failed) seen in the logs
+--------------------------------------------------------------------------------------------
+
+![Screenshot 2025-05-03 123700](https://github.com/user-attachments/assets/cd8ca18b-6e51-4eb4-ae93-0231032448d8)
+
+--------------------------------------------------------------------------------------------------------------------------
+    Completed Task - 18
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
