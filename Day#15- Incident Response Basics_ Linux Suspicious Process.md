@@ -6,15 +6,6 @@
 
 Investigate and respond to a **suspicious outbound network connection** from a Linux machine. This simulates beaconing behavior or data exfiltration. Students will learn to inspect open connections, trace source processes, and mitigate threats.
 
----
-
----
-
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/Q08CERMd3FI/maxresdefault.jpg)](https://youtu.be/Q08CERMd3FI)
----
-
 
 ## 📘 **Why It Matters**
 
