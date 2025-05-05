@@ -98,3 +98,22 @@ Question 1: What is the reputation of the domain?
 
 ### Submission
 - Share the snapshot showing the reputation of teh domain
+
+------------------------------------------------------------------
+----------------------------------------------------------------------
+
+###Output of Task - 21
+
+ What is the reputation of the domain?
+ ------------------------------------
+![Screenshot 2025-05-05 140642](https://github.com/user-attachments/assets/1f24975e-c9e7-4b99-a9f7-de9eb0e8a33f)
+
+
+-------------------------------------------------------------------------------------------
+ Completed Task - 21
+-------------------------------------------------------------------------------------------
+
+
+
+
+
